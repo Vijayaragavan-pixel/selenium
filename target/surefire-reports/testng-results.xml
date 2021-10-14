@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="sample test suite" duration-ms="22205" started-at="2021-10-14T00:29:06 IST" finished-at="2021-10-14T00:29:28 IST">
+  <suite name="sample test suite" duration-ms="25220" started-at="2021-10-14T10:32:08 IST" finished-at="2021-10-14T10:32:33 IST">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="22205" started-at="2021-10-14T00:29:06 IST" finished-at="2021-10-14T00:29:28 IST">
+    <test name="Login Test" duration-ms="25220" started-at="2021-10-14T10:32:08 IST" finished-at="2021-10-14T10:32:33 IST">
       <class name="mavenSeleniumGA.Run">
-        <test-method status="PASS" signature="setup()[pri:0, instance:mavenSeleniumGA.Run@6a9b0a6f]" name="setup" is-config="true" duration-ms="4434" started-at="2021-10-14T00:29:06 IST" finished-at="2021-10-14T00:29:11 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mavenSeleniumGA.Run@359b650b]" name="setup" is-config="true" duration-ms="8560" started-at="2021-10-14T10:32:08 IST" finished-at="2021-10-14T10:32:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="execution()[pri:0, instance:mavenSeleniumGA.Run@6a9b0a6f]" name="execution" duration-ms="16207" started-at="2021-10-14T00:29:11 IST" finished-at="2021-10-14T00:29:27 IST">
+        <test-method status="PASS" signature="execution()[pri:0, instance:mavenSeleniumGA.Run@359b650b]" name="execution" duration-ms="15034" started-at="2021-10-14T10:32:16 IST" finished-at="2021-10-14T10:32:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execution -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:mavenSeleniumGA.Run@6a9b0a6f]" name="tearDown" is-config="true" duration-ms="1495" started-at="2021-10-14T00:29:27 IST" finished-at="2021-10-14T00:29:28 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mavenSeleniumGA.Run@359b650b]" name="tearDown" is-config="true" duration-ms="1541" started-at="2021-10-14T10:32:32 IST" finished-at="2021-10-14T10:32:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
