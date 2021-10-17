@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mavenSeleniumGA.Run">
+      <class name="ether.OpenCart">
         <methods>
-          <include name="execution"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="click_on_saving_the_category"/>
+          <include name="user_providing_category_details"/>
+          <include name="open_opencart_website"/>
+          <include name="closeweb"/>
         </methods>
-      </class> <!-- mavenSeleniumGA.Run -->
+      </class> <!-- ether.OpenCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
