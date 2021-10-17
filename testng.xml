@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sample test suite" >
+  <test name="SampleTest" >
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+       <class name="ether.OpenCart" />
+    </classes>
+  </test>
+  <test name="Sample2Test" >
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+       <class name="ether.OpenCart" />
+    </classes>
+  </test>
+</suite>	

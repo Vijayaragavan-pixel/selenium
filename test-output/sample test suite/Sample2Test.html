@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Sample2Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Sample2Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 18 00:19:34 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>181 seconds (181519 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ether.OpenCart.user_selects_information_option()'><b>user_selects_information_option</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>10</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.user_click_on_Customer_name()'><b>user_click_on_Customer_name</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>7</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.adding_layout()'><b>adding_layout</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>4</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.view_the_total_orders()'><b>view_the_total_orders</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>4</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.click_on_saving_the_category()'><b>click_on_saving_the_category</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>7</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.click_on_extension()'><b>click_on_extension</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>3</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.use_the_Upload_button_to_upload_the_file_to_OpenCart_online_shop()'><b>use_the_Upload_button_to_upload_the_file_to_OpenCart_online_shop</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>8</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.user_unable_to_add_the_category()'><b>user_unable_to_add_the_category</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>3</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.filter_and_view_the_order()'><b>filter_and_view_the_order</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>13</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.enter_customerdetails_fields()'><b>enter_customerdetails_fields</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>9</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.click_on_edit_button()'><b>click_on_edit_button</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>6</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.user_click_on_the_report_field()'><b>user_click_on_the_report_field</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>1</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.choose_the_report_type()'><b>choose_the_report_type</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>2</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.user_click_on_the_customer_field()'><b>user_click_on_the_customer_field</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>7</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.view_the_customer_reports()'><b>view_the_customer_reports</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>0</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.layout_added_successfully()'><b>layout_added_successfully</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>0</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.Go_to_layout_option()'><b>Go_to_layout_option</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>1</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.user_unable_to_delete_the_information()'><b>user_unable_to_delete_the_information</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>3</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.enter_invalid()'><b>enter_invalid</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>12</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.user_providing_category_details()'><b>user_providing_category_details</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>8</td>
+<td>ether.OpenCart@4e718207</td></tr>
+<tr>
+<td title='ether.OpenCart.click_on_print_Invoice_and_dispatch_note()'><b>click_on_print_Invoice_and_dispatch_note</b><br>Test class: ether.OpenCart</td>
+<td></td>
+<td>6</td>
+<td>ether.OpenCart@4e718207</td></tr>
+</table><p>
+</body>
+</html>
